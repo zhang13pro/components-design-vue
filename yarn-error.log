@@ -1,0 +1,41 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Users\bobobo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add ant-design-vue@next
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Esko\Artios\Common\Program\;D:\Program Files\nodejs\;C:\Users\bobobo\AppData\Local\Microsoft\WindowsApps;d:\Programs\Microsoft VS Code\bin;C:\Users\bobobo\AppData\Roaming\npm;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.4.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\WorkSpace\all-in\components-design-vue\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "components-design-vue",
+    "version": "0.1.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.16"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.9.3",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
